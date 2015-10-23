@@ -1,0 +1,399 @@
+#Banner,
+#Banner > div
+{	
+	position: relative;
+	height:600px;
+}
+
+
+#block-block-3,
+#block-views-projects-front-block,
+#block-views-engineering-services-block .content,
+#block-views-engineering-services-block h2,
+#block-webform-client-block-13 .content,
+#block-webform-client-block-13 h2,
+.region-footer,
+#block-views-team-block h2,
+#block-block-5 h2,
+#block-block-6 h2
+{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#block-block-3
+{	
+	position: relative;
+	top: 50%;
+	z-index: 99;
+	transform:translateY(-50%);
+	-moz-transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	font-family:"copperplate",sans-serif;
+
+	.content
+	{
+		max-width:836px;
+		padding: 0 10px;
+		font-size: 3.2em;
+		text-shadow: 1px 1px 3px rgba(0,0,0,1);
+		color:white;
+		
+		p
+		{
+			line-height: 1.2em;
+			letter-spacing: 2px;
+		}
+	}
+
+	a.button
+	{
+		margin-top: 90px;
+	}
+}
+
+#block-views-banner-block-1
+{
+	position: absolute;
+	top: 0;
+	height: 600px;
+	width: 100%;
+}
+
+#block-views-engineering-services-block
+{
+	background:url(../images/redbg.png) no-repeat;
+	background-size:cover;
+    -ms-behavior: url("/sites/all/themes/redale/css/backgroundsize.min.htc");
+	background-position-x: center;
+	color: white;
+
+	.views-row
+	{
+		padding: 15px 0px;
+	}
+
+
+	h2:before
+	{
+		content: "";
+		display: inline-block;
+		vertical-align: middle;
+		background:url(../images/icons/icon-title-services.png) no-repeat;
+		background-size: 36px;
+		height: 33px;
+		width:33px;
+	}
+
+	.firstbox,
+	.secondbox
+	{
+		float:left;
+		width:50%;
+	}
+
+	
+	.button
+	{
+		background:$lightred;
+		margin: 30px 0px 20px;
+
+
+		&:hover
+		{
+			color:$red;
+			background:white;
+		}
+
+		&:before
+		{
+			border-color:white;
+		}
+
+		&:hover:before
+		{
+			border-color:$red;
+		}
+	}
+
+	.field-content
+	{
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.views-field-title a
+	{
+		color:white;
+		font-size: 20px;
+		text-decoration: none;
+		font-weight: 400;
+	}
+
+	.views-field-body,
+	.views-field-field-icons,
+	{
+		display: none;
+	}
+
+	.view-footer
+	{
+		clear: left;
+		padding-top:1px;
+	}
+}
+
+#block-views-projects-front-block,
+#block-views-engineering-services-block,
+#block-webform-client-block-13,
+#block-block-5,
+#block-block-6,
+#block-views-team-block
+{	
+	padding:50px 0px;
+	position: relative;
+	h2
+	{
+		font-size:32px;
+		border-bottom: 1px solid white;
+		padding-bottom: 25px;
+		margin-bottom: 30px;
+
+		&:before
+		{
+			display: inline-block;
+			vertical-align: middle;
+			padding-right:20px;
+		}
+	}
+}
+
+#block-views-projects-front-block,
+#content .content .view-projects 
+{
+	.button
+	{
+		color:$red;
+		max-width:185px;
+		border-color:$red;
+		margin-top: 50px;
+
+		&:hover
+		{
+			color:white;
+		}
+
+		&:hover:before
+		{
+			color:white;
+		}
+	}
+
+	.views-row
+	{
+		display: inline-block;
+		position: relative;
+		height: 315px;
+		width: 315px;
+		overflow: hidden;
+
+		&:hover .views-field-title
+		{
+			opacity: 1;
+			transition: 0.8s opacity;
+		}
+
+		.views-field-title > span
+		{
+			display: table;
+		}
+
+		.views-field-title,
+		.views-field-title div,
+		.views-field-title > span
+		{
+			height:100%;
+			width:100%;
+			
+		}
+
+		.views-field-title
+		{
+			opacity:0;
+			transition: 0.8s opacity;
+			position: absolute;
+		}
+
+		.views-field-title a
+		{
+			color: white;
+			display: table-cell;
+			vertical-align: middle;
+			padding:0px 50px;
+			font-size: 20px;
+			text-decoration: none;
+			background:rgba(131,28,29,0.9);
+
+			span{
+				position: relative;
+			}
+			span:before
+			{
+				border-color:white;
+				top: 6px;
+				left: -25px;
+			}
+		}
+
+	}
+
+	h2
+	{
+		color:$red;
+		border-bottom-color:$red;
+
+		&:before
+		{
+			content: url("../images/icons/icon-title-featured.png");
+		}
+	}
+}
+
+#block-views-projects-front-block,
+#content .content .view-projects
+{	
+
+	max-width:960px;
+	margin:0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	.views-field-title a
+	{	
+		text-align: left;
+		&:after
+		{	
+			display: block;
+			content: url(../images/icons/magnifying-glass.png);
+			width:30px;
+			height: 20px;
+			position: absolute;
+			bottom: 30px;
+			right: 30px;
+		}
+	}
+}
+
+#block-webform-client-block-13
+{
+	float:left;
+
+	.webform-client-form-13
+	{
+		max-width:625px;
+	}
+
+	.webform-component--message
+	{
+		max-width: 610px;
+	}
+
+	textarea
+	{
+		max-width:620px;
+	}
+
+	input
+	{
+		width: 297px;
+	}
+	h2
+	{
+		color:$red;
+		border-bottom:1px solid $red;
+		width:150%; 
+
+		&:before
+		{
+			content: url(../images/icons/contact-icon-big.png);
+		}
+	}
+
+	.webform-component-textfield
+	{
+		float: left;
+		padding-right: 15px;
+	}
+
+	.webform-component--company,
+	.webform-component--email
+	{
+		padding-right:0px;
+	}
+
+	.webform-component--message,
+	.form-actions
+	{
+		clear: left;
+	}
+
+	input.form-checkbox
+	{
+		width:auto;
+		border-bottom:0px;
+		vertical-align: middle;
+		display: inline-block;
+	}
+
+	.webform-component--message,
+	.webform-component--preferred-method-of-contact,
+	.form-actions
+	{
+		float: none;
+	}
+
+
+	.webform-submit
+	{
+		border-color:$red;
+		color:$red;
+		width: auto;
+		border-bottom: 0px;
+		padding-bottom: 0px;
+	}
+
+	.form-actions
+	{
+		max-width: 73px;
+		border-color:$red;
+		margin-top: 50px;
+		cursor: pointer;
+	}
+
+	.form-actions:hover .webform-submit
+	{
+		color:white;
+	}
+
+	.form-actions:hover:before{
+
+		border-color:white;
+	}
+
+}
+
+#block-block-4
+{
+	float: left;
+	margin-top: 175px;
+	padding-left: 17px;
+	font-size:18px;
+	color:$darkgrey;
+
+	p
+	{
+		padding-bottom:20px;
+	}
+}
+

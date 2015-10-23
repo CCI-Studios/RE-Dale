@@ -1,0 +1,480 @@
+@media screen and (max-width:990px)
+{
+
+	#block-block-3, 
+	#block-views-projects-front-block, 
+	#block-views-engineering-services-block .content, 
+	#block-webform-client-block-13 .content, 
+	.region-footer, 
+	{
+		padding-left:10px;
+		padding-right: 10px;
+	}
+
+	.page-node-17 #block-views-engineering-services-block .content
+	{
+		padding:0px;
+	}
+
+	.page-node-14 .view-footer,
+	.page-node-14 .view-header
+	{
+		top:30%;
+	}
+
+	#block-block-3 .content
+	{
+		padding:0px;
+		max-width: 790px;
+		font-size: 2.5em;
+	}
+
+	#Banner, #Banner > div
+	{
+		height: 480px;
+	}
+
+	#block-views-banner-block-1
+	{
+		height: 480px;
+
+		.backbg
+		{
+			height: 480px
+		}
+	}
+
+	#block-views-projects-front-block .view-content, 
+	#content .content .view-projects .view-content
+	{
+		text-align: center;
+	}
+
+	#header > div
+	{
+		padding:0px;
+	}
+
+	#header
+	{
+		margin: 20px 0px;
+	}
+
+	.page-node-17 #block-views-engineering-services-block
+	{
+		.views-field-title .field-content
+		{
+			max-width: 250px;
+		}
+	}
+		
+	#logo
+	{
+		padding-left: 10px;
+		width:220px;
+
+		img
+		{
+			width:220px;
+		}
+	}
+
+	#block-block-4
+	{
+		margin-top: 0px;
+	}
+
+	.region-header
+	{
+		width:100%;
+		float: none;
+	}
+
+	#block-system-main-menu
+	{
+		display: none;
+		clear: left;
+		padding-top: 30px;
+
+		li.expanded ul.menu
+		{
+			display: block;
+			position: relative;
+			width: auto;
+			top:0px;
+
+			li
+			{
+				border-bottom:0px;
+			}
+
+			li a
+			{
+				padding-left:60px;
+			}
+		}
+
+		.content a
+		{	
+			max-width: 300px;
+			padding:10px;
+			&:before
+			{
+				display: inline-block;
+				width:50px;
+			}
+			
+		}
+
+		ul.menu li
+		{
+			margin: 0px;
+			border-top:1px solid #ccc;
+		}
+
+		ul.menu li,
+		ul.menu
+		{
+			float: none;
+
+			a
+			{
+				padding-bottom:10px;
+			}
+			
+		}
+
+	}
+	#block-block-9
+	{
+		display: block;
+		float: right;
+
+		.content a
+		{
+			background: url(../images/mobile-menu.png) no-repeat;
+			display: block;
+			color:transparent;
+			font-size: 0px;
+			width:50px;
+			height: 50px;
+		}
+
+		&.open .content a
+		{
+			background: url(../images/cross.png) no-repeat;
+		}
+	}
+
+	.region-footer
+	{
+		position: relative;
+	}
+
+	#block-webform-client-block-13 
+	{
+		float: none;
+		.webform-client-form-13
+		{
+			padding-top: 140px;
+		}
+	
+
+		 h2
+		{
+			width:auto;
+		}
+	}
+
+	#block-block-4
+	{
+		position: absolute;
+		top: 130px;
+		padding-left:0px;
+	}
+
+	#block-views-team-block
+	{
+		.view-content
+		{
+			max-width: 650px;
+			margin: 0 auto;
+		}
+	}
+
+	#block-webform-client-block-13 .content
+	{
+		padding-left:0px;
+	}
+
+	#block-views-engineering-services-block h2, 
+	#block-block-5 h2, 
+	#block-block-6 h2, 
+	#block-views-team-block h2
+	{
+		margin-left:10px;
+		margin-right:10px;
+	}
+
+	#block-views-engineering-services-block 
+	{
+
+		.views-field-title .field-content
+		{
+			max-width: 220px;
+		}
+	}
+
+	#block-block-4
+	{
+		top: 145px;
+	}
+
+}
+
+@media screen and (max-width:767px)
+{
+	#block-block-4
+	{
+		top: 130px;
+	}
+	.node-type-projects #header-text
+	{
+		padding-top:0px;
+	}
+
+	#block-views-project-sidebar-list-block
+	{
+		display: none;
+	}
+
+	.node-type-projects #block-system-main
+	{
+		width:100%;
+	}
+
+	#block-block-10
+	{
+		display: block;
+	}
+
+	#Banner, #Banner > div
+	{
+		height: 275px;
+	}
+
+	#team_bio_description {
+	padding: 40px 30px;
+	}
+
+	#block-block-3 .content
+	{
+		font-size: 1.5em;
+
+		a.button
+		{
+			margin-top: 40px;
+		}
+		
+	}
+
+	#block-views-engineering-services-block 
+	{
+		.view-content
+		{
+			-webkit-column-count:1;
+		}
+
+		.views-field-title .field-content
+		{
+			max-width: 220px;
+		}
+
+		.firstbox,
+		.secondbox
+		{
+			float:none;
+			width:100%;
+		}
+	}
+
+	#block-views-projects-front-block h2, 
+	#block-views-engineering-services-block h2, 
+	#block-webform-client-block-13 h2, 
+	#block-block-5 h2, 
+	#block-block-6 h2, 
+	#block-views-team-block h2
+	{
+		font-size: 28px;
+	
+		&:before
+		{
+			float: left;
+		}
+	}
+
+	#inner-banner,
+	#inner-banner-projects,
+	.banner-basic-page 
+	{
+		#page-title
+		{
+			font-size: 2.5em;
+			max-width: 250px;
+		}
+	}
+
+	#block-views-projects-front-block,
+	#content .content .view-projects
+	{	
+		.views-row
+		{
+			height:180px;
+			width:180px;
+
+			.views-field-title a
+			{
+				padding:0px 32px;
+			}
+		}
+
+		.views-field-field-images-projects
+		{
+			img
+			{
+				height: 180px;
+				width:180px;
+			}
+		}
+	}
+
+	.page-node-14 .content #block-views-team-block
+	{
+		.view-content
+		{
+			text-align:center;
+		}
+
+		.views-row
+		{
+			display: inline-block;
+			float: none;
+		}
+	}
+
+	#header-text, 
+	#header-text-projects, 
+	.banner-basic-page h1#page-title
+	{
+		padding-top: 0px;
+		top: 50%;
+		position: absolute;
+		transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+	}
+
+}
+
+
+@media screen and (max-width:460px)
+{
+
+	#block-block-3 .content {
+		font-size: 1.1em;
+	}
+
+	#header-text img,
+	#header-text-projects img,
+	.banner-basic-page h1#page-title img
+	{
+		width:40px;
+	}
+
+	.page-node-17 #block-views-engineering-services-block img.title-icons
+	{
+		width:40px;
+		padding-right:10px;
+	}
+	.page-node-14 .content #block-views-team-block .views-row
+	{
+		height: 280px;
+		width:280px;
+		display: block;
+		padding:20px 0px;
+		margin: 0 auto;
+	}
+
+
+	#inner-banner #page-title, 
+	#inner-banner-projects #page-title, 
+	.banner-basic-page #page-title
+	{
+		font-size: 2em;
+	}
+
+	#header-text .subtext, 
+	#header-text-projects .subtext, 
+	.banner-basic-page h1#page-title .subtext
+	{
+		padding-left:60px;
+	}
+
+
+	.page-node-14 .view-footer, .page-node-14 .view-header
+	{
+		top:70px;
+	}
+
+
+	#block-views-projects-front-block h2, 
+	#block-views-engineering-services-block h2, 
+	#block-webform-client-block-13 h2, 
+	#block-block-5 h2, 
+	#block-block-6 h2, 
+	#block-views-team-block h2
+	{
+		font-size: 20px;
+		padding-left:0px;
+	}
+
+	#block-views-engineering-services-block 
+	{	
+		.views-field-title a
+		{
+			font-size: 16px;
+		}
+
+		img.title-icons
+		{
+			width:2.2em;
+		}
+	}
+
+	.page-node-17
+	{
+		#block-views-engineering-services-block 
+		{
+		
+			#block-views-team-block
+			{
+				.view-content
+				{
+					max-width: 650px;
+					margin: 0 auto;
+				}
+			}
+
+			.views-field-body
+			{
+				padding-left:10px;
+			}
+
+			.views-field-title .field-content
+			{
+				max-width: 220px;
+			}
+		}
+	}
+}

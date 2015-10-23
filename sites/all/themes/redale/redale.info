@@ -1,0 +1,31 @@
+name = Robert E.Dale
+description = Robert E.Dale Custom
+core = 7.x
+
+scripts[] = js/background-size.js
+scripts[] = js/icons.js
+scripts[] = js/map.js
+scripts[] = js/column-count.js
+scripts[] = js/mobile-menu.js
+scripts[] = js/team-slider.js
+scripts[] = js/placeholder.js
+scripts[] = js/form-validation.js
+scripts[] = slick/slick.min.js
+
+
+stylesheets[all][] = css/screen.css
+stylesheets[all][] = css/no-columns.css
+stylesheets[all][] = slick/slick.css
+stylesheets[all][] = slick/slick-theme.css
+
+regions[navigation] = Navigation
+regions[header] = Header
+regions[banner] = Banner
+regions[help] = Help
+regions[content] = Content
+regions[front-content] = Front page content
+regions[sidebar] = Sidebar
+regions[widgets] = Widgets
+regions[footer] = Footer
+
+			
